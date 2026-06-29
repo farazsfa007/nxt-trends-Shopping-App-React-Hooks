@@ -3,7 +3,7 @@
 A modern, fast, and fully responsive e-commerce web application built using **React (Functional Components & Hooks)**, **React Router v6**, and styled with custom responsive CSS layouts. The application integrates secure JWT-based authentication, interactive product filtering, sorting, real-time cart state management, and an absolute fluid checkout summary.
 
 ### 🌐 Live Demo & Repository
-* **Live Deployment Url:** [nxt-trends-shopping-app.netlify.app](https://nxt-trends-shopping-app.netlify.app/login)
+* **Live Deployment Url:** [nxt-trends-shopping-app.netlify.app](https://nxt-trends-shopping-app.netlify.app/)
 * **GitHub Repository:** [farazsfa007/nxt-trends-Shopping-App-React-Hooks](https://github.com/farazsfa007/nxt-trends-Shopping-App-React-Hooks)
 
 ---
