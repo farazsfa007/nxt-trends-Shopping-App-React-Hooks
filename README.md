@@ -127,5 +127,3 @@ npm run dev
 5. Open your browser and navigate to the local server address displayed in your terminal (typically `http://localhost:5173`).
 
 ```
-
-```
