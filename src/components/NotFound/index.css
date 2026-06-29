@@ -1,0 +1,51 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.not-found-img {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+
+.not-found-heading {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.not-found-description {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 16px;
+    max-width: 400px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.go-home-btn {
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease-in-out;
+    }
+
+    .go-home-btn:hover {
+    background-color: #0052cc;
+}
