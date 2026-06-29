@@ -106,29 +106,3 @@ npm run dev
 Open your browser and navigate to the local server port displayed in your terminal (typically `http://localhost:5173`).
 
 ---
-
-## ⚙️ Development Highlights: State Mechanics Sample
-
-A quick glimpse into how the functional transition simplified root calculations:
-
-```javascript
-// Stateful functional logic mapping across state arrays cleanly using modern state updates
-const addCartItem = product => {
-  setCartList(prevCartList => {
-    const productObject = prevCartList.find(item => item.id === product.id)
-    if (productObject) {
-      return prevCartList.map(item => 
-        item.id === productObject.id 
-          ? { ...item, quantity: item.quantity + product.quantity } 
-          : item
-      )
-    }
-    return [...prevCartList, product]
-  })
-}
-
-```
-
-```
-
-```
