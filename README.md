@@ -9,7 +9,6 @@ A modern, highly responsive e-commerce shopping app built with React, styled nat
 
 ## 🚀 Key Features & Architectural Migrations
 
-* **Class Components to Hooks Refactor:** Migrated the entire codebase from complex stateful class configurations to lightweight Functional Components.
 * **Global State with Context API:** Managed e-commerce workflow states (adding items, mutating quantities dynamically, dropping items below zero, recalculating totals) natively via `useContext` instead of multi-tiered `<CartContext.Consumer>` structures.
 * **Secure Route Shielding (React Router v6):** Implemented modern layout security mechanisms using standard nested `<Routes>` paired with `<Outlet />` and `<Navigate />` parameters to seal off private user actions.
 * **Component Sync & Search Optimization:** Synchronized parameter variations, categorizations, rating changes, and API data transactions securely using isolated state layers (`useCallback` and `useEffect`).
